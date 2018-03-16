@@ -115,17 +115,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Boots.cpp" />
+    <ClCompile Include="Creature.cpp" />
     <ClCompile Include="Dagger.cpp" />
+    <ClCompile Include="Gloves.cpp" />
     <ClCompile Include="Hammer.cpp" />
+    <ClCompile Include="Helm.cpp" />
+    <ClCompile Include="IArmor.cpp" />
     <ClCompile Include="IItem.cpp" />
     <ClCompile Include="IWeapon.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pants.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Tunic.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Boots.h" />
+    <ClInclude Include="Creature.h" />
     <ClInclude Include="Dagger.h" />
+    <ClInclude Include="Gloves.h" />
     <ClInclude Include="Hammer.h" />
+    <ClInclude Include="Helm.h" />
+    <ClInclude Include="IArmor.h" />
     <ClInclude Include="IItem.h" />
     <ClInclude Include="IWeapon.h" />
+    <ClInclude Include="Pants.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Tunic.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,130 +1,20 @@
 #include <iostream>
 #include <cstdlib>
+#include "Boots.h"
 #include "Dagger.h"
+#include "Gloves.h"
+#include "Hammer.h"
+#include "Helm.h"
+#include "IArmor.h"
+#include "IItem.h"
+#include "IWeapon.h"
+#include "Pants.h"
+#include "Tunic.h"
+#include "Player.h"
 #include <time.h>
-//hh
 
 
-/*
-class IArmor: public IItem
-{
 
-    int def;
-
-public:
-    int GetDefence()
-    {
-        return def;
-    }
-
-    IArmor(int a)
-    {
-        def = a;
-    }
-};
-
-
-class Helm: public IArmor
-{
-    ItemEnum item = HEL;
-public:
-    virtual ItemEnum GetType() override
-    {
-            return this->item;
-    }
-    Helm(int a) : IArmor(a)
-    {
-
-    }
-
-};
-
-class Pants : public IArmor
-{
-    ItemEnum item = PAN;
-public:
-    virtual ItemEnum GetType() override
-    {
-            return this->item;
-    }
-    Pants(int a) : IArmor(a)
-    {
-
-    }
-
-};
-
-class Tunic : public IArmor
-{
-    ItemEnum item = TUN;
-public:
-    virtual ItemEnum GetType() override
-    {
-            return this->item;
-    }
-    Tunic(int a) : IArmor(a)
-    {
-
-    }
-
-};
-
-class Gloves : public IArmor
-{
-    ItemEnum item = GLO;
-public:
-    virtual ItemEnum GetType() override
-    {
-            return this->item;
-    }
-    Gloves(int a) : IArmor(a)
-    {
-
-    }
-
-};
-
-class Boots : public IArmor
-{
-    ItemEnum item = BOO;
-public:
-    virtual ItemEnum GetType() override
-    {
-            return this->item;
-    }
-    Boots(int a) : IArmor(a)
-    {
-
-    }
-
-};
-
-class Player
-{
-    IWeapon* wep;
-    Helm* hel;
-    Tunic* tun;
-    Pants* pants;
-    Gloves* glo;
-    Boots* boo;
-
-public:
-    void Equip(IItem* item)
-    {
-        switch(item->GetType())
-        {
-            case 1: wep = static_cast<IWeapon*>(item); break;
-            case 2: hel = (Helm*)item; std::cout << "Ubieram helm"; break;
-            case 3: tun = (Tunic*)item; break;
-            case 4: pants = (Pants*)item; break;
-            case 5: glo = (Gloves*)item; std::cout << "Ubieram buty"; break;
-            case 6: boo = (Boots*)item; break;
-
-        }
-    }
-};
-
-*/
 
 int main()
 {
