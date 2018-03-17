@@ -32,8 +32,19 @@ int main()
         std::cout << "Boots: " << B.GetType() << std::endl;
         Helm* Hel = new Helm(30);
         Gloves* G = new Gloves(5);
+		IWeapon* Da = new Dagger();
+		Boots* Boo = new Boots(2);
+		Tunic* Tun = new Tunic(50);
+		Pants* Pa = new Pants(40);
         Player P;
         P.Equip(G);
         P.Equip(Hel);
+		P.Equip(Da);
+		P.Equip(Boo);
+		P.Equip(Tun);
+		P.Equip(Pa);
+		std::cout << P.getDefence() << std::endl;
+		P.getInventory().listItems();
+		std::cin.get();
         return 0;
 }

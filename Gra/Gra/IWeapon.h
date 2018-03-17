@@ -8,10 +8,10 @@ protected:
 	int Crit;
 public:
 	IWeapon(int a, int b);
+	virtual ~IWeapon();
 	virtual ItemEnum GetType() override;
 	virtual int Attack() = 0;
 	virtual bool IsCriticalHit();
-	IWeapon(int a, int b);
-	virtual ~IWeapon() {}
+	
 };
 

@@ -1,6 +1,6 @@
 #include "Hammer.h"
 
-Hammer::Hammer(int a = 120, int b = 30) : IWeapon::IWeapon(a, b)
+Hammer::Hammer(int a, int b) : IWeapon::IWeapon(a, b)
 {
 
 }

@@ -123,6 +123,7 @@
     <ClCompile Include="Helm.cpp" />
     <ClCompile Include="IArmor.cpp" />
     <ClCompile Include="IItem.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="IWeapon.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Pants.cpp" />
@@ -138,6 +139,7 @@
     <ClInclude Include="Helm.h" />
     <ClInclude Include="IArmor.h" />
     <ClInclude Include="IItem.h" />
+    <ClInclude Include="Inventory.h" />
     <ClInclude Include="IWeapon.h" />
     <ClInclude Include="Pants.h" />
     <ClInclude Include="Player.h" />

@@ -1,6 +1,6 @@
 #include "Dagger.h"
 
-Dagger::Dagger(int a = 50, int b = 60) : IWeapon(a, b)
+Dagger::Dagger(int a , int b ) : IWeapon(a, b)
 {
 
 }
