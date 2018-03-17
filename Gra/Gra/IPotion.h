@@ -1,14 +1,11 @@
 #pragma once
 #include "IItem.h"
-class IArmor :
+class IPotion :
 	public IItem
 {
-	int def;
-
 public:
-	int getDefence();
-	IArmor(int a);
-	virtual ~IArmor();
+	IPotion();
+	virtual ~IPotion();
 	virtual void showDescription();
 };
 

@@ -8,5 +8,6 @@ public:
 	Tunic(int a);
 	~Tunic();
 	virtual ItemEnum GetType() override;
+
 };
 

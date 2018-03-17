@@ -1,6 +1,6 @@
 #include "IArmor.h"
 
-int IArmor::GetDefence()
+int IArmor::getDefence()
 {
 	return def;
 }
@@ -11,3 +11,7 @@ IArmor::IArmor(int a)
 }
 IArmor::~IArmor() {}
 
+void IArmor::showDescription()
+{
+	std::cout << typeid(*this).name() <<  " Defence: " << (*this).getDefence() << std::endl;
+}

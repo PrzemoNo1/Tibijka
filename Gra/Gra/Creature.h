@@ -14,5 +14,7 @@ class Creature
 public:
 	Creature();
 	virtual ~Creature();
+	virtual void attack(Creature* creature) = 0;
+	virtual void takeDamage(int hit) = 0;
 };
 

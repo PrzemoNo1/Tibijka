@@ -16,12 +16,15 @@ class Player :
 	Gloves* glo;
 	Boots* boo;
 public:
-	Player();
+	Player(int level=1, int hp=100);
 	~Player();
 	void Equip(IItem* item);
 	int getMaxHP();
 	int getHP();
+	void setHP(int HP);
 	int getDefence();
+	void attack(Creature* creature);
+	void takeDamage(int hit);
 	Inventory getInventory();
 };
 

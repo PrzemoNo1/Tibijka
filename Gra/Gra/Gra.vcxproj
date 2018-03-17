@@ -120,10 +120,12 @@
     <ClCompile Include="Dagger.cpp" />
     <ClCompile Include="Gloves.cpp" />
     <ClCompile Include="Hammer.cpp" />
+    <ClCompile Include="HealthPotion.cpp" />
     <ClCompile Include="Helm.cpp" />
     <ClCompile Include="IArmor.cpp" />
     <ClCompile Include="IItem.cpp" />
     <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="IPotion.cpp" />
     <ClCompile Include="IWeapon.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Pants.cpp" />
@@ -136,10 +138,12 @@
     <ClInclude Include="Dagger.h" />
     <ClInclude Include="Gloves.h" />
     <ClInclude Include="Hammer.h" />
+    <ClInclude Include="HealthPotion.h" />
     <ClInclude Include="Helm.h" />
     <ClInclude Include="IArmor.h" />
     <ClInclude Include="IItem.h" />
     <ClInclude Include="Inventory.h" />
+    <ClInclude Include="IPotion.h" />
     <ClInclude Include="IWeapon.h" />
     <ClInclude Include="Pants.h" />
     <ClInclude Include="Player.h" />

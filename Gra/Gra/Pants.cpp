@@ -12,3 +12,4 @@ Pants::Pants(int a) : IArmor(a)
 {
 
 }
+

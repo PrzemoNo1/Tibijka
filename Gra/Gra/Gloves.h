@@ -8,5 +8,6 @@ public:
 	Gloves(int a);
 	~Gloves();
 	virtual ItemEnum GetType() override;
+
 };
 

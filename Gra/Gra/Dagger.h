@@ -7,5 +7,6 @@ public:
 	virtual int Attack() override;
 	Dagger(int a = 50, int b = 60);
 	~Dagger();
+
 };
 

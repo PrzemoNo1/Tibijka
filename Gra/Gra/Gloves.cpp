@@ -13,3 +13,4 @@ ItemEnum Gloves::GetType()
 {
 	return this->item;
 }
+

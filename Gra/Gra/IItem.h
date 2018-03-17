@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 enum ItemEnum
 {
 	WEA,
@@ -6,14 +7,16 @@ enum ItemEnum
 	TUN,
 	PAN,
 	GLO,
-	BOO
+	BOO,
+	HPot
 };
 
 class IItem
 {
 public:
 	IItem();
-	~IItem();
+	virtual ~IItem();
 	virtual ItemEnum GetType() = 0;
+	virtual void showDescription() = 0;
 };
 

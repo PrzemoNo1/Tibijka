@@ -8,5 +8,6 @@ public:
 	Boots(int a);
 	~Boots();
 	virtual ItemEnum GetType() override;
+
 };
 

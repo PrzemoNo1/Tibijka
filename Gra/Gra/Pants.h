@@ -7,5 +7,6 @@ public:
 	virtual ItemEnum GetType() override;
 	Pants(int a);
 	~Pants();
+
 };
 

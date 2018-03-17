@@ -28,4 +28,3 @@ int Dagger::Attack()
 	}
 	return sum;
 }
-

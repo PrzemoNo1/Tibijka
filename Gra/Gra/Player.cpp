@@ -2,8 +2,10 @@
 
 
 
-Player::Player()
+Player::Player(int level, int hp)
 {
+	this->level = level;
+	actualHP = hp;
 }
 
 
@@ -31,10 +33,39 @@ int Player::getHP()
 {
 	return actualHP;
 }
+void Player::setHP(int HP)
+{
+	actualHP += HP;
+	if (actualHP >= maxHP) actualHP = maxHP;
+}
 int Player::getDefence()
 {
-	return (*hel).GetDefence() + (*tun).GetDefence() + (*pants).GetDefence() + (*glo).GetDefence() + (*boo).GetDefence();
+	return (*hel).getDefence() + (*tun).getDefence() + (*pants).getDefence() + (*glo).getDefence() + (*boo).getDefence();
 }
+void Player::attack(Creature* creature)
+{
+	creature->takeDamage(wep->Attack());
+}
+void Player::takeDamage(int hit)
+{
+	hit -= getDefence();
+	if (hit > actualHP)
+	{
+		actualHP = 0;
+		std::cout << "Giniesz" << std::endl;
+	}
+	else if (hit > 0)
+	{
+		actualHP -= hit;
+	}
+	else if (hit <= 0)
+	{
+		std::cout << "Cios sparowany" << std::endl;
+	}
+}
+
+
+
 Inventory Player::getInventory()
 {
 	return this->backpack;

@@ -8,5 +8,6 @@ public:
 	virtual ItemEnum GetType() override;
 	Helm(int a);
 	~Helm();
+
 };
 

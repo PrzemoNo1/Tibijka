@@ -9,7 +9,7 @@ public:
 	Inventory();
 	~Inventory();
 	void listItems();
-	void dropItem(/*czy powinien byc tu item???*/);
+	void dropItem();
 	void addItem(IItem* item);
 
 };

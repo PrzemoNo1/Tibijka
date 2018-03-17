@@ -14,6 +14,10 @@ ItemEnum IWeapon::GetType()
 {
 	return this->item;
 }
+int IWeapon::getAtt()
+{
+	return Att;
+}
 
 bool IWeapon::IsCriticalHit()
 {
@@ -21,5 +25,8 @@ bool IWeapon::IsCriticalHit()
 		return true;
 	return false;
 }
-
+void IWeapon::showDescription()
+{
+	std::cout << typeid(*this).name() << " Attack: " << getAtt() << std::endl;
+}
 

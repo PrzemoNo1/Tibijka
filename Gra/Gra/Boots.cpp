@@ -16,3 +16,4 @@ ItemEnum Boots::GetType()
 {
 	return this->item;
 }
+
