@@ -11,7 +11,7 @@ HealthPotion::HealthPotion(int HP)
 HealthPotion::~HealthPotion()
 {
 }
-void use(Player* player)
+void HealthPotion::use(Player* player)
 {
-	player->setHP(HealthPotion::HP);
+	player->setHP(HP);
 }

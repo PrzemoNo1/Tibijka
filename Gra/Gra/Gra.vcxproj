@@ -118,6 +118,7 @@
     <ClCompile Include="Boots.cpp" />
     <ClCompile Include="Creature.cpp" />
     <ClCompile Include="Dagger.cpp" />
+    <ClCompile Include="Fight.cpp" />
     <ClCompile Include="Gloves.cpp" />
     <ClCompile Include="Hammer.cpp" />
     <ClCompile Include="HealthPotion.cpp" />
@@ -136,6 +137,7 @@
     <ClInclude Include="Boots.h" />
     <ClInclude Include="Creature.h" />
     <ClInclude Include="Dagger.h" />
+    <ClInclude Include="Fight.h" />
     <ClInclude Include="Gloves.h" />
     <ClInclude Include="Hammer.h" />
     <ClInclude Include="HealthPotion.h" />
